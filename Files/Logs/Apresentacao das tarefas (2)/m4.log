@@ -1,0 +1,728 @@
+Minimizing MILP 
+Original problem has:
+       275 rows          201 cols         3940 elements       180 globals
+Presolved problem has:
+       107 rows          177 cols         1588 elements       167 globals
+LP relaxation tightened
+Symmetric problem: generators: 5, support set: 110
+ Number of orbits: 55, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:   159.900000      Time: 0 ***
+ *** Heuristic solution found:   139.600000      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  131.72500   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 117 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   117        131.725000      P      0     0        .000000     0
+Dual solved problem
+  117 simplex iterations in 0s
+
+Final objective                         : 1.317250000000000e+02
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 4.441e-16 / 3.135e-16
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          137.000000   131.725000      3                  3.85%       0      0
+   1  K    137.000000   131.800000      3     17      0    3.80%      14      0
+a          135.100000   131.800000      4                  2.44%       0      0
+   2  K    135.100000   131.800000      4     16      8    2.44%      32      0
+a          133.000000   131.800000      5                  0.90%       0      0
+   3  K    133.000000   131.800000      5     19     19    0.90%      25      0
+
+Cuts in the matrix         : 25
+Cut elements in the matrix : 1585
+
+Performing root presolve...
+
+Reduced problem has:     125 rows     140 columns      2448 elements
+Presolve dropped   :       7 rows      37 columns       247 elements
+Presolve tightened :        93 elements
+Symmetric problem: generators: 4, support set: 64
+ Number of orbits: 32, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    133.000000   131.800000      5     24     16    0.90%      11      0
+   2  K    133.000000   131.800000      5     24     17    0.90%      19      0
+   3  K    133.000000   131.800000      5     14     26    0.90%      21      0
+   4  K    133.000000   131.800000      5     15     12    0.90%      18      0
+   5  K    133.000000   131.800000      5     13     18    0.90%      21      0
+   6  K    133.000000   131.800000      5     12     14    0.90%      18      0
+a          132.800000   131.800000      6                  0.75%       0      0
+   7  K    132.800000   131.800000      6     14     16    0.75%      13      0
+   8  K    132.800000   131.800000      6      7     14    0.75%      13      0
+   9  K    132.800000   131.800000      6     16      5    0.75%      16      0
+  10  K    132.800000   131.800000      6     31     14    0.75%      17      0
+  11  K    132.800000   131.800000      6     21     21    0.75%      24      0
+  12  K    132.800000   131.800000      6     24     23    0.75%      18      0
+  13  K    132.800000   131.800000      6     21     21    0.75%      24      0
+  14  K    132.800000   131.800000      6     15     20    0.75%      27      0
+  15  K    132.800000   131.800000      6     17     16    0.75%      24      0
+  16  K    132.800000   131.800000      6     14     17    0.75%      27      0
+  17  K    132.800000   131.800000      6     19     43    0.75%      21      0
+Heuristic search started
+R          132.700000   131.800000      7                  0.68%       0      0
+Heuristic search stopped
+M          132.300000   131.800000      8                  0.38%       0      0
+
+Cuts in the matrix         : 13
+Cut elements in the matrix : 416
+
+Performing root presolve...
+
+Reduced problem has:      94 rows     125 columns      1500 elements
+Presolve dropped   :      19 rows      15 columns       133 elements
+Presolve tightened :       122 elements
+Symmetric problem: generators: 5, support set: 76
+ Number of orbits: 38, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    132.300000   131.800000      8     22      5    0.38%       6      0
+   2  K    132.300000   131.800000      8     22     44    0.38%      19      0
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 8
+Cut elements in the matrix : 265
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Performing root presolve...
+
+Reduced problem has:      89 rows     119 columns      1296 elements
+Presolve dropped   :       0 rows       6 columns        18 elements
+Symmetric problem: generators: 5, support set: 72
+ Number of orbits: 36, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    132.300000   131.800000      8     24      5    0.38%       7      0
+   2  K    132.300000   131.800000      8     27     39    0.38%      14      0
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 15
+Cut elements in the matrix : 583
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting tree search.
+Deterministic mode with up to 4 running threads and up to 8 tasks.
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1   132.300000   131.800000      8      2      1    0.38%      10      0
+       2   132.300000   131.800000      8      2      3    0.38%      11      0
+       3   132.300000   131.800000      8      2      3    0.38%       8      0
+       4   132.300000   131.800000      8      2      4    0.38%       8      0
+       5   132.300000   131.800000      8      2      4    0.38%       8      0
+       6   132.300000   131.800000      8      5      5    0.38%      16      0
+       7   132.300000   131.800000      8      8      5    0.38%       7      0
+       8   132.300000   131.800000      8      8      4    0.38%       9      0
+       9   132.300000   131.800000      8      8      5    0.38%      11      0
+      10   132.300000   131.800000      8      8      6    0.38%       9      0
+      36   132.300000   131.800000      8     15     23    0.38%       4      0
+*     58   132.200000   131.800000      9     31     23    0.30%       0      0
+      59   132.200000   131.800000      9     31     23    0.30%       1      0
+      79   132.200000   131.800000      9     46     25    0.30%       7      0
+      98   132.200000   131.800000      9     46     28    0.30%       4      0
+     138   132.200000   131.800000      9     46     30    0.30%       4      1
+a    230   132.000000   131.800000     10     66     20    0.15%       0      1
+     242   132.000000   131.800000     10     66     28    0.15%       4      1
+     346   132.000000   131.800000     10     87     26    0.15%       5      1
+a    381   131.900000   131.800000     11     87     25    0.08%       0      1
+     455   131.900000   131.800000     11     87     26    0.08%       4      1
+     559   131.900000   131.800000     11     75      1    0.08%       1      1
+B&B tree size: 470k total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     664   131.900000   131.800000     11     69     26    0.08%       7      1
+     767   131.900000   131.800000     11     98     22    0.08%      11      1
+     867   131.900000   131.800000     11    130     19    0.08%      11      1
+     967   131.900000   131.800000     11    168     30    0.08%       8      1
+    1073   131.900000   131.800000     11    174     31    0.08%       7      1
+    1178   131.900000   131.800000     11    179     24    0.08%       8      1
+    1282   131.900000   131.800000     11    187     29    0.08%       8      1
+    1388   131.900000   131.800000     11    202     22    0.08%       9      1
+    1489   131.900000   131.800000     11    207     22    0.08%       6      1
+    1590   131.900000   131.800000     11    228     27    0.08%       6      1
+    1700   131.900000   131.800000     11    231     31    0.08%       6      1
+    1800   131.900000   131.800000     11    237     18    0.08%      13      1
+    1902   131.900000   131.800000     11    240     27    0.08%       9      1
+    2020   131.900000   131.800000     11    240     26    0.08%       4      1
+    2122   131.900000   131.800000     11    238     27    0.08%      10      1
+    2241   131.900000   131.800000     11    230     27    0.08%       9      1
+    2347   131.900000   131.800000     11    246     25    0.08%      10      1
+    2447   131.900000   131.800000     11    267     22    0.08%      12      1
+    2548   131.900000   131.800000     11    271     22    0.08%       8      1
+    2650   131.900000   131.800000     11    281     25    0.08%       6      1
+B&B tree size: 0.8Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2751   131.900000   131.800000     11    275     22    0.08%       6      1
+    2852   131.900000   131.800000     11    275     31    0.08%       8      1
+    2958   131.900000   131.800000     11    282     27    0.08%       8      1
+    3068   131.900000   131.800000     11    282     25    0.08%       8      1
+    3168   131.900000   131.800000     11    269     16    0.08%      10      1
+    3281   131.900000   131.800000     11    269     26    0.08%       2      1
+    3404   131.900000   131.800000     11    269     27    0.08%       5      1
+    3508   131.900000   131.800000     11    274     25    0.08%       4      1
+a   3524   131.800000   131.800000     12    276     22    0.00%       0      1
+STOPPING - MIPRELSTOP target reached.
+    3747   131.800000   131.800000     12     56      1    0.00%       1      1
+ *** Search completed ***     Time:     1 Nodes:       3747
+Number of integer feasible solutions found is 12
+Best integer solution found is   131.800000
+Best bound is   131.800000
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 2
+Best integer solution found is  8193.599706
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 2
+Best integer solution found is  8193.599706
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 3
+Best integer solution found is  7042.647320
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      0
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      0
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      0
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      0
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      0
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      0
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      0
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      0
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      0
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      0
+k         6994.943961  6747.408970      4                  3.54%       0      0
+STOPPING - MIPRELSTOP target reached.
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      0
+
+Cuts in the matrix         : 13
+Cut elements in the matrix : 1853
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is  6994.943961
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      0
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      0
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      0
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      0
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      0
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      0
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      0
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      0
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      0
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      0
+k         6994.943961  6747.408970      4                  3.54%       0      0
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      0
+Heuristic search started
+Heuristic search stopped
+M         6924.943961  6747.408970      5                  2.56%       0      0
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 5
+Best integer solution found is  6924.943961
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      0
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      0
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      0
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      0
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      0
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      0
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      0
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      0
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      0
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      0
+k         6994.943961  6747.408970      4                  3.54%       0      0
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      0
+Heuristic search started
+Heuristic search stopped
+M         6924.943961  6747.408970      5                  2.56%       0      0
+M         6892.695948  6747.408970      6                  2.11%       0      0
+M         6874.819323  6747.408970      7                  1.85%       0      0
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 7
+Best integer solution found is  6874.819323
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      0
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      0
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      0
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      0
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      0
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      0
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      0
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      0
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      0
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      0
+k         6994.943961  6747.408970      4                  3.54%       0      0
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      0
+Heuristic search started
+Heuristic search stopped
+M         6924.943961  6747.408970      5                  2.56%       0      0
+M         6892.695948  6747.408970      6                  2.11%       0      0
+M         6874.819323  6747.408970      7                  1.85%       0      0
+M         6861.906493  6747.408970      8                  1.67%       0      0
+M         6847.512053  6747.408970      9                  1.46%       0      0
+M         6843.353461  6747.408970     10                  1.40%       0      0
+M         6837.695529  6747.408970     11                  1.32%       0      0
+M         6826.886954  6747.408970     12                  1.16%       0      0
+M         6822.728362  6747.408970     13                  1.10%       0      0
+M         6814.933772  6747.408970     14                  0.99%       0      0
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 14
+Best integer solution found is  6814.933772
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      0
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      0
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      0
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      0
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      0
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      0
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      0
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      0
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      0
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      0
+k         6994.943961  6747.408970      4                  3.54%       0      0
+STOPPING - MIPRELSTOP target reached.
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      0
+
+Cuts in the matrix         : 13
+Cut elements in the matrix : 1853
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is  6994.943961
+Best bound is  6747.408970
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       330 rows          861 cols        17800 elements       840 globals
+Presolved problem has:
+       202 rows          862 cols         1932 elements       840 globals
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:  8290.582893      Time: 0 ***
+ *** Heuristic solution found:  8193.599706      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  6747.4090   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 214 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   214       6747.408970      P      0     0        .000000     0
+Dual solved problem
+  214 simplex iterations in 0s
+
+Final objective                         : 6.747408969566669e+03
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 1.421e-14 / 1.421e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+g         7042.647320  6747.408970      3                  4.19%       0      0
+   1  K   7042.647320  6747.408970      3     28      0    4.19%      16      0
+   2  K   7042.647320  6747.408970      3     16     23    4.19%      23      0
+   3  K   7042.647320  6747.408970      3     16     16    4.19%      25      0
+   4  K   7042.647320  6747.408970      3     16     12    4.19%      32      0
+   5  K   7042.647320  6747.408970      3     17     13    4.19%      37      0
+   6  K   7042.647320  6747.408970      3     20     21    4.19%      31      0
+   7  K   7042.647320  6747.408970      3     19     18    4.19%      35      0
+   8  K   7042.647320  6747.408970      3     16     22    4.19%      33      0
+   9  K   7042.647320  6747.408970      3     17     16    4.19%      32      0
+  10  K   7042.647320  6747.408970      3     17     17    4.19%      32      0
+  11  K   7042.647320  6747.408970      3     24     18    4.19%      27      0
+  12  K   7042.647320  6747.408970      3     18     23    4.19%      33      1
+  13  K   7042.647320  6747.408970      3     19     19    4.19%      32      1
+  14  K   7042.647320  6747.408970      3     18     18    4.19%      32      1
+  15  K   7042.647320  6747.408970      3     23     17    4.19%      34      1
+  16  K   7042.647320  6747.408970      3     21     22    4.19%      36      1
+  17  K   7042.647320  6747.408970      3     19     19    4.19%      37      1
+  18  K   7042.647320  6747.408970      3     22     23    4.19%      33      1
+  19  K   7042.647320  6747.408970      3     20     19    4.19%      36      1
+  20  K   7042.647320  6747.408970      3     16     32    4.19%      36      1
+  21  G   7042.647320  6747.408970      3      8      1    4.19%      42      1
+k         6994.943961  6747.408970      4                  3.54%       0      1
+STOPPING - MIPRELSTOP target reached.
+  22  G   6994.943961  6747.408970      4     13     21    3.54%      27      1
+
+Cuts in the matrix         : 13
+Cut elements in the matrix : 1853
+ *** Search completed ***     Time:     1 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is  6994.943961
+Best bound is  6747.408970
+Uncrunching matrix
