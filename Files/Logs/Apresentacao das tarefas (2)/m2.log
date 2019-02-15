@@ -480,3 +480,736 @@ Number of integer feasible solutions found is 12
 Best integer solution found is   131.800000
 Best bound is   131.800000
 Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       275 rows          201 cols         3940 elements       180 globals
+Presolved problem has:
+       119 rows          179 cols         1766 elements       169 globals
+LP relaxation tightened
+Symmetric problem: generators: 5, support set: 112
+ Number of orbits: 56, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:   181.500000      Time: 0 ***
+ *** Heuristic solution found:   154.200000      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  138.76000   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 121 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   121        138.760000      P      0     0        .000000     0
+Dual solved problem
+  121 simplex iterations in 0s
+
+Final objective                         : 1.387600000000000e+02
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 4.441e-16 / 4.441e-16
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          146.800000   138.760000      3                  5.48%       0      0
+q          140.700000   138.760000      4                  1.38%       0      0
+
+Performing root presolve...
+
+Reduced problem has:     119 rows     164 columns      1650 elements
+Presolve dropped   :       0 rows      15 columns         0 elements
+Presolve tightened :        59 elements
+Symmetric problem: generators: 5, support set: 100
+ Number of orbits: 50, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    140.700000   138.800000      4     35      0    1.35%      11      0
+   2  K    140.700000   138.800000      4     25     18    1.35%      17      0
+   3  K    140.700000   138.800000      4     14     26    1.35%      17      0
+   4  K    140.700000   138.800000      4     10      7    1.35%      16      0
+a          139.800000   138.800000      5                  0.72%       0      1
+   5  K    139.800000   138.800000      5     16     17    0.72%      17      1
+
+Cuts in the matrix         : 32
+Cut elements in the matrix : 1126
+
+Performing root presolve...
+
+Reduced problem has:     140 rows     143 columns      2434 elements
+Presolve dropped   :      11 rows      21 columns       117 elements
+Presolve tightened :       156 elements
+Symmetric problem: generators: 5, support set: 84
+ Number of orbits: 42, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          139.300000   138.800000      6                  0.36%       0      1
+   1  K    139.300000   138.800000      6     30     26    0.36%       6      1
+
+Cuts in the matrix         : 36
+Cut elements in the matrix : 1449
+
+Performing root presolve...
+
+Reduced problem has:     119 rows     128 columns      2341 elements
+Presolve dropped   :      25 rows      15 columns       285 elements
+Presolve tightened :       179 elements
+Symmetric problem: generators: 5, support set: 78
+ Number of orbits: 39, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          139.200000   138.800000      7                  0.29%       0      1
+
+Cuts in the matrix         : 36
+Cut elements in the matrix : 1205
+
+Performing root presolve...
+
+Reduced problem has:     119 rows     121 columns      2204 elements
+Presolve dropped   :       0 rows       7 columns         3 elements
+Presolve tightened :         6 elements
+Symmetric problem: generators: 5, support set: 72
+ Number of orbits: 36, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    139.200000   138.800000      7     10     26    0.29%       5      1
+   2  K    139.200000   138.800000      7     15      5    0.29%       8      1
+   3  K    139.200000   138.800000      7     17     18    0.29%      19      1
+   4  K    139.200000   138.800000      7     21     14    0.29%      19      1
+   5  K    139.200000   138.800000      7     15     16    0.29%      27      1
+   6  K    139.200000   138.800000      7     37     18    0.29%      19      1
+   7  K    139.200000   138.800000      7     23     41    0.29%      16      1
+   8  K    139.200000   138.800000      7     32     11    0.29%      21      1
+   9  K    139.200000   138.800000      7     20     26    0.29%      22      1
+  10  K    139.200000   138.800000      7     15     15    0.29%      23      1
+  11  K    139.200000   138.800000      7     15     23    0.29%      20      1
+  12  K    139.200000   138.800000      7      6     15    0.29%      21      1
+a          139.100000   138.800000      8                  0.22%       0      1
+  13  K    139.100000   138.800000      8     16      8    0.22%      21      1
+  14  K    139.100000   138.800000      8     19     49    0.22%      17      1
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 12
+Cut elements in the matrix : 297
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Performing root presolve...
+
+Reduced problem has:      88 rows     115 columns      1280 elements
+Presolve dropped   :       7 rows       6 columns        49 elements
+Presolve tightened :        46 elements
+Symmetric problem: generators: 5, support set: 68
+ Number of orbits: 34, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    139.100000   138.800000      8     34      3    0.22%      11      1
+   2  K    139.100000   138.800000      8     31     65    0.22%      17      1
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 9
+Cut elements in the matrix : 220
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting tree search.
+Deterministic mode with up to 4 running threads and up to 8 tasks.
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1   139.100000   138.800000      8      2      1    0.22%       6      1
+       2   139.100000   138.800000      8      2      2    0.22%      15      1
+       3   139.100000   138.800000      8      2      2    0.22%      17      1
+       4   139.100000   138.800000      8      2      3    0.22%       8      1
+       5   139.100000   138.800000      8      2      3    0.22%      10      1
+       6   139.100000   138.800000      8      5      4    0.22%       9      1
+       7   139.100000   138.800000      8      5      5    0.22%       9      1
+       8   139.100000   138.800000      8      8      4    0.22%      20      1
+       9   139.100000   138.800000      8      8      6    0.22%       9      1
+      10   139.100000   138.800000      8      8      5    0.22%       7      1
+      34   139.100000   138.800000      8     17     18    0.22%      17      1
+      44   139.100000   138.800000      8     17     23    0.22%       9      1
+a     72   139.000000   138.800000      9     35     22    0.14%       0      1
+      74   139.000000   138.800000      9     35     22    0.14%       4      1
+      98   139.000000   138.800000      9     35     25    0.14%       4      1
+     113   139.000000   138.800000      9     35     19    0.14%      14      1
+*    127   138.800000   138.800000     10     35     16    0.00%       0      1
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     1 Nodes:        127
+Number of integer feasible solutions found is 10
+Best integer solution found is   138.800000
+Best bound is   138.800000
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       275 rows          201 cols         3940 elements       180 globals
+Presolved problem has:
+       118 rows          173 cols         1722 elements       163 globals
+LP relaxation tightened
+Symmetric problem: generators: 5, support set: 108
+ Number of orbits: 54, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 3.5Gb
+ *** Heuristic solution found:   181.300000      Time: 0 ***
+ *** Heuristic solution found:   140.700000      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  134.82857   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 101 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   101        134.828571      P      0     0        .000000     0
+Dual solved problem
+  101 simplex iterations in 0s
+
+Final objective                         : 1.348285714285715e+02
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 3.331e-16 / 2.961e-16
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+q          138.600000   134.828571      3                  2.72%       0      0
+   1  K    138.600000   134.880000      3     18      0    2.68%      20      0
+a          137.700000   134.880000      4                  2.05%       0      0
+   2  K    137.700000   134.880000      4     16      7    2.05%      31      0
+
+Cuts in the matrix         : 27
+Cut elements in the matrix : 2530
+
+Performing root presolve...
+
+Reduced problem has:     144 rows     167 columns      3610 elements
+Presolve dropped   :       1 rows       6 columns       583 elements
+Presolve tightened :        69 elements
+Symmetric problem: generators: 5, support set: 104
+ Number of orbits: 52, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 3.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          137.600000   134.900000      5                  1.96%       0      0
+   1  K    137.600000   134.900000      5     25     25    1.96%      11      0
+a          136.500000   134.900000      6                  1.17%       0      0
+   2  K    136.500000   134.900000      6     23     18    1.17%      18      0
+
+Cuts in the matrix         : 32
+Cut elements in the matrix : 2406
+
+Performing root presolve...
+
+Reduced problem has:     149 rows     154 columns      3499 elements
+Presolve dropped   :       0 rows      13 columns       287 elements
+Symmetric problem: generators: 5, support set: 96
+ Number of orbits: 48, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 3.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    136.500000   134.900000      6     26     28    1.17%      11      0
+   2  K    136.500000   134.900000      6     26     20    1.17%      17      0
+   3  K    136.500000   134.900000      6     23     24    1.17%      19      0
+   4  K    136.500000   134.900000      6     16     21    1.17%      21      0
+   5  K    136.500000   134.900000      6     11     17    1.17%      19      0
+   6  K    136.500000   134.900000      6     13     14    1.17%      19      0
+   7  K    136.500000   134.900000      6     10     11    1.17%      18      0
+   8  K    136.500000   134.900000      6     20      9    1.17%      24      0
+   9  K    136.500000   134.900000      6     10     17    1.17%      22      0
+  10  K    136.500000   134.900000      6     10     15    1.17%      21      0
+  11  K    136.500000   134.900000      6     25      8    1.17%      21      0
+  12  K    136.500000   134.900000      6     11     26    1.17%      22      0
+  13  K    136.500000   134.900000      6     10     14    1.17%      19      0
+  14  K    136.500000   134.900000      6     13     10    1.17%      18      0
+  15  K    136.500000   134.900000      6     16     13    1.17%      18      0
+  16  K    136.500000   134.900000      6     16     29    1.17%      18      0
+Heuristic search started
+R          136.300000   134.900000      7                  1.03%       0      0
+R          135.800000   134.900000      8                  0.66%       0      1
+Heuristic search stopped
+M          135.600000   134.900000      9                  0.52%       0      1
+M          135.400000   134.900000     10                  0.37%       0      1
+
+Cuts in the matrix         : 12
+Cut elements in the matrix : 541
+
+Performing root presolve...
+
+Reduced problem has:      96 rows     122 columns      1573 elements
+Presolve dropped   :      33 rows      32 columns       235 elements
+Presolve tightened :       126 elements
+Symmetric problem: generators: 5, support set: 74
+ Number of orbits: 37, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 3.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    135.400000   134.900000     10     28     10    0.37%      11      1
+   2  K    135.400000   134.900000     10     28     49    0.37%      20      1
+Heuristic search started
+R          135.200000   134.900000     11                  0.22%       0      1
+Heuristic search stopped
+
+Cuts in the matrix         : 9
+Cut elements in the matrix : 352
+
+Performing root presolve...
+
+Reduced problem has:      90 rows     117 columns      1399 elements
+Presolve dropped   :       3 rows       5 columns        63 elements
+Presolve tightened :        52 elements
+Symmetric problem: generators: 5, support set: 70
+ Number of orbits: 35, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 3.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    135.200000   134.900000     11     25      6    0.22%      10      1
+   2  K    135.200000   134.900000     11     29     49    0.22%      17      1
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 8
+Cut elements in the matrix : 340
+Will try to keep branch and bound tree memory usage below 3.5Gb
+
+Starting tree search.
+Deterministic mode with up to 4 running threads and up to 8 tasks.
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1   135.200000   134.900000     11      2      1    0.22%      12      1
+       2   135.200000   134.900000     11      2      2    0.22%      13      1
+       3   135.200000   134.900000     11      2      2    0.22%      13      1
+       4   135.200000   134.900000     11      2      3    0.22%      13      1
+       5   135.200000   134.900000     11      2      3    0.22%      13      1
+       6   135.200000   134.900000     11      5      4    0.22%      13      1
+       7   135.200000   134.900000     11      8      4    0.22%      14      1
+       8   135.200000   134.900000     11      8      4    0.22%      19      1
+       9   135.200000   134.900000     11      8      5    0.22%      11      1
+      10   135.200000   134.900000     11      8      6    0.22%       9      1
+      31   135.200000   134.900000     11     17     19    0.22%       9      1
+      59   135.200000   134.900000     11     25     26    0.22%       4      1
+      72   135.200000   134.900000     11     42     16    0.22%       8      1
+      94   135.200000   134.900000     11     42     29    0.22%       6      1
+     108   135.200000   134.900000     11     42     22    0.22%       5      1
+     212   135.200000   134.900000     11     82     26    0.22%       4      1
+a    301   135.000000   134.900000     12     82     19    0.07%       0      1
+     312   135.000000   134.900000     12     82     15    0.07%       9      1
+     436   135.000000   134.900000     12     74     25    0.07%       5      1
+     554   135.000000   134.900000     12     91     28    0.07%       2      1
+B&B tree size: 0.5Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     664   135.000000   134.900000     12     84     25    0.07%       5      1
+     771   135.000000   134.900000     12     74     22    0.07%       9      1
+     876   135.000000   134.900000     12     68      1    0.07%       1      1
+     982   135.000000   134.900000     12     74     22    0.07%       5      1
+    1082   135.000000   134.900000     12     95     19    0.07%      11      1
+    1197   135.000000   134.900000     12    108     20    0.07%       7      1
+    1297   135.000000   134.900000     12    112     21    0.07%       7      1
+    1400   135.000000   134.900000     12    127     17    0.07%      10      1
+    1501   135.000000   134.900000     12    151     22    0.07%      10      1
+    1607   135.000000   134.900000     12    151     28    0.07%       7      1
+    1712   135.000000   134.900000     12    156     25    0.07%       8      1
+*   1723   134.900000   134.900000     13    156     23    0.00%       0      1
+STOPPING - MIPRELSTOP target reached.
+ *** Search completed ***     Time:     1 Nodes:       1724
+Number of integer feasible solutions found is 13
+Best integer solution found is   134.900000
+Best bound is   134.900000
+Uncrunching matrix
+Minimizing MILP 
+Original problem has:
+       275 rows          201 cols         3940 elements       180 globals
+Presolved problem has:
+       112 rows          179 cols         1658 elements       169 globals
+LP relaxation tightened
+Symmetric problem: generators: 5, support set: 112
+ Number of orbits: 56, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:   170.300000      Time: 0 ***
+ *** Heuristic solution found:   151.100000      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  141.50000   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 133 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   133        141.500000      P      0     0        .000000     0
+Dual solved problem
+  133 simplex iterations in 0s
+
+Final objective                         : 1.415000000000000e+02
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 2.665e-15 / 2.665e-15
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a          145.600000   141.500000      3                  2.82%       0      0
+
+Performing root presolve...
+
+Reduced problem has:     112 rows     173 columns      1616 elements
+Presolve dropped   :       0 rows       6 columns         0 elements
+Symmetric problem: generators: 5, support set: 106
+ Number of orbits: 53, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    145.600000   141.500000      3     29      0    2.82%       8      0
+   2  K    145.600000   141.500000      3     34     24    2.82%      17      0
+   3  K    145.600000   141.500000      3     23     34    2.82%      15      0
+a          143.900000   141.500000      4                  1.67%       0      0
+   4  K    143.900000   141.500000      4     19     23    1.67%      18      0
+
+Cuts in the matrix         : 24
+Cut elements in the matrix : 727
+
+Performing root presolve...
+
+Reduced problem has:     136 rows     149 columns      2193 elements
+Presolve dropped   :       0 rows      24 columns         0 elements
+Symmetric problem: generators: 5, support set: 90
+ Number of orbits: 45, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    143.900000   141.500000      4     19     24    1.67%       6      0
+a          142.800000   141.500000      5                  0.91%       0      0
+   2  K    142.800000   141.500000      5     35     15    0.91%      15      0
+
+Cuts in the matrix         : 39
+Cut elements in the matrix : 1838
+
+Performing root presolve...
+
+Reduced problem has:     138 rows     123 columns      2782 elements
+Presolve dropped   :      13 rows      26 columns       234 elements
+Presolve tightened :       147 elements
+Symmetric problem: generators: 5, support set: 68
+ Number of orbits: 34, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    142.800000   141.500000      5     18     39    0.91%       6      0
+   2  K    142.800000   141.500000      5     35     15    0.91%      16      0
+   3  K    142.800000   141.500000      5     17     32    0.91%      16      0
+   4  K    142.800000   141.500000      5     15     20    0.91%      16      0
+   5  K    142.800000   141.500000      5     28     16    0.91%      11      0
+   6  K    142.800000   141.500000      5     14     26    0.91%      18      0
+   7  K    142.800000   141.500000      5     28     14    0.91%      17      0
+   8  K    142.800000   141.500000      5     10     23    0.91%      21      0
+   9  K    142.800000   141.500000      5     11     13    0.91%      16      0
+  10  K    142.800000   141.500000      5     22     13    0.91%      16      0
+  11  K    142.800000   141.500000      5     21     22    0.91%      13      0
+  12  K    142.800000   141.500000      5     21     21    0.91%      15      0
+  13  K    142.800000   141.500000      5     15     20    0.91%      12      0
+  14  K    142.800000   141.500000      5     37     53    0.91%      15      0
+Heuristic search started
+R          142.400000   141.500000      6                  0.63%       0      0
+R          142.100000   141.500000      7                  0.42%       0      0
+Heuristic search stopped
+
+Cuts in the matrix         : 4
+Cut elements in the matrix : 115
+
+Performing root presolve...
+
+Reduced problem has:      84 rows     104 columns      1161 elements
+Presolve dropped   :      19 rows      19 columns        67 elements
+Presolve tightened :       176 elements
+Symmetric problem: generators: 4, support set: 48
+ Number of orbits: 24, largest orbit: 2
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K    142.100000   141.500000      7     25      4    0.42%       8      0
+   2  K    142.100000   141.500000      7     29     52    0.42%      19      0
+Heuristic search started
+Heuristic search stopped
+
+Cuts in the matrix         : 2
+Cut elements in the matrix : 52
+Will try to keep branch and bound tree memory usage below 5.5Gb
+
+Starting tree search.
+Deterministic mode with up to 4 running threads and up to 8 tasks.
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1   142.100000   141.500000      7      2      1    0.42%       8      1
+       2   142.100000   141.500000      7      2      2    0.42%       9      1
+       3   142.100000   141.500000      7      2      3    0.42%       9      1
+       4   142.100000   141.500000      7      2      2    0.42%      14      1
+       5   142.100000   141.500000      7      5      4    0.42%      16      1
+       6   142.100000   141.500000      7      5      5    0.42%      10      1
+       7   142.100000   141.500000      7      5      3    0.42%      10      1
+       8   142.100000   141.500000      7      5      6    0.42%       8      1
+       9   142.100000   141.500000      7      8      7    0.42%       8      1
+      10   142.100000   141.500000      7     11      4    0.42%      14      1
+*     39   141.800000   141.500000      8     17     25    0.21%       0      1
+      40   141.800000   141.500000      8     17     25    0.21%       1      1
+      55   141.800000   141.500000      8     33     16    0.21%       5      1
+      75   141.800000   141.500000      8     30      1    0.21%       1      1
+      93   141.800000   141.500000      8     30     23    0.21%       4      1
+     107   141.800000   141.500000      8     30     19    0.21%       7      1
+*    213   141.700000   141.500000      9     30     21    0.14%       0      1
+     215   141.700000   141.500000      9     30     21    0.14%       8      1
+     326   141.700000   141.500000      9     60     15    0.14%      11      1
+     432   141.700000   141.500000      9    125     22    0.14%      12      1
+     540   141.700000   141.500000      9    154     18    0.14%      12      1
+B&B tree size: 0.7Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     648   141.700000   141.500000      9    213     15    0.14%       7      1
+a    750   141.600000   141.500000     10    238     22    0.07%       0      1
+     752   141.600000   141.500000     10    238     21    0.07%       2      1
+     853   141.600000   141.500000     10    243     28    0.07%       6      1
+    1047   141.600000   141.500000     10    167      1    0.07%       1      1
+    1151   141.600000   141.500000     10    176     26    0.07%       8      1
+    1260   141.600000   141.500000     10    176     19    0.07%       6      1
+    1377   141.600000   141.500000     10    210      1    0.07%       1      1
+    1481   141.600000   141.500000     10    206     22    0.07%       8      1
+    1592   141.600000   141.500000     10    206     12    0.07%      10      1
+    1707   141.600000   141.500000     10    231     31    0.07%       6      1
+    1814   141.600000   141.500000     10    231     32    0.07%       9      1
+    1918   141.600000   141.500000     10    239     16    0.07%       9      1
+    2030   141.600000   141.500000     10    248     24    0.07%       5      1
+    2142   141.600000   141.500000     10    285     25    0.07%      12      1
+    2254   141.600000   141.500000     10    285     28    0.07%       4      1
+    2360   141.600000   141.500000     10    281     28    0.07%       9      1
+    2482   141.600000   141.500000     10    298     19    0.07%      10      1
+    2593   141.600000   141.500000     10    297     16    0.07%       8      1
+    2713   141.600000   141.500000     10    297     32    0.07%      10      1
+    2821   141.600000   141.500000     10    324     28    0.07%       9      1
+B&B tree size: 1.0Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2932   141.600000   141.500000     10    324     35    0.07%       5      1
+    3033   141.600000   141.500000     10    336     28    0.07%       9      1
+    3163   141.600000   141.500000     10    333     32    0.07%       6      1
+    3276   141.600000   141.500000     10    343     32    0.07%       9      1
+    3376   141.600000   141.500000     10    343     32    0.07%       8      1
+    3487   141.600000   141.500000     10    355     28    0.07%       8      1
+    3599   141.600000   141.500000     10    370     26    0.07%       7      1
+    3714   141.600000   141.500000     10    373     29    0.07%       7      1
+    3815   141.600000   141.500000     10    373     28    0.07%      10      1
+    3916   141.600000   141.500000     10    374     27    0.07%      11      1
+    4029   141.600000   141.500000     10    377     28    0.07%      12      1
+    4137   141.600000   141.500000     10    394     32    0.07%       8      1
+    4238   141.600000   141.500000     10    395     30    0.07%      10      1
+    4341   141.600000   141.500000     10    395     30    0.07%       4      1
+    4444   141.600000   141.500000     10    395     26    0.07%       7      1
+    4567   141.600000   141.500000     10    399     22    0.07%      12      1
+    4693   141.600000   141.500000     10    399     20    0.07%      10      1
+    4794   141.600000   141.500000     10    399     22    0.07%       9      1
+    4912   141.600000   141.500000     10    409     16    0.07%       6      1
+    5012   141.600000   141.500000     10    409     19    0.07%       8      1
+B&B tree size: 1.1Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    5131   141.600000   141.500000     10    412     23    0.07%       8      1
+    5241   141.600000   141.500000     10    412     32    0.07%       9      1
+    5342   141.600000   141.500000     10    402     28    0.07%       9      1
+    5466   141.600000   141.500000     10    403     22    0.07%      10      1
+    5581   141.600000   141.500000     10    416     15    0.07%       9      1
+    5687   141.600000   141.500000     10    416     18    0.07%      14      1
+    5811   141.600000   141.500000     10    416     22    0.07%      12      1
+    5918   141.600000   141.500000     10    416     24    0.07%       9      1
+    6021   141.600000   141.500000     10    420     28    0.07%       9      1
+    6121   141.600000   141.500000     10    456     16    0.07%       9      1
+    6223   141.600000   141.500000     10    448     29    0.07%       7      1
+    6328   141.600000   141.500000     10    448     23    0.07%       8      1
+    6436   141.600000   141.500000     10    474     22    0.07%       6      1
+    6545   141.600000   141.500000     10    474     24    0.07%      10      1
+    6675   141.600000   141.500000     10    502     31    0.07%       9      1
+    6775   141.600000   141.500000     10    502     10    0.07%      10      1
+    6901   141.600000   141.500000     10    504     26    0.07%       3      1
+    7006   141.600000   141.500000     10    504     28    0.07%       9      1
+    7128   141.600000   141.500000     10    495     26    0.07%      11      1
+    7233   141.600000   141.500000     10    495     23    0.07%      11      1
+B&B tree size: 1.5Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    7340   141.600000   141.500000     10    495     33    0.07%      13      1
+    7444   141.600000   141.500000     10    488     31    0.07%      11      1
+    7544   141.600000   141.500000     10    486     12    0.07%       8      2
+    7677   141.600000   141.500000     10    486     24    0.07%       9      2
+    7787   141.600000   141.500000     10    514     16    0.07%       9      2
+    7890   141.600000   141.500000     10    520     21    0.07%      10      2
+    7998   141.600000   141.500000     10    520     21    0.07%      11      2
+    8115   141.600000   141.500000     10    532     30    0.07%      10      2
+    8235   141.600000   141.500000     10    529     13    0.07%       7      2
+    8338   141.600000   141.500000     10    548     20    0.07%      11      2
+    8460   141.600000   141.500000     10    545     27    0.07%       6      2
+    8574   141.600000   141.500000     10    552     28    0.07%       9      2
+    8685   141.600000   141.500000     10    552     26    0.07%      10      2
+    8804   141.600000   141.500000     10    544     29    0.07%       7      2
+    8931   141.600000   141.500000     10    543     32    0.07%      10      2
+    9032   141.600000   141.500000     10    543     26    0.07%       9      2
+    9151   141.600000   141.500000     10    555     29    0.07%       7      2
+    9280   141.600000   141.500000     10    553     31    0.07%       8      2
+    9393   141.600000   141.500000     10    576     25    0.07%       6      2
+    9506   141.600000   141.500000     10    576     23    0.07%       7      2
+B&B tree size: 1.8Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    9609   141.600000   141.500000     10    576     34    0.07%       8      2
+    9711   141.600000   141.500000     10    577     30    0.07%       7      2
+    9814   141.600000   141.500000     10    570     27    0.07%       8      2
+    9914   141.600000   141.500000     10    569     29    0.07%      11      2
+   10030   141.600000   141.500000     10    583     32    0.07%       6      2
+   11041   141.600000   141.500000     10    580     28    0.07%       9      2
+   12071   141.600000   141.500000     10    604     23    0.07%       9      2
+   13087   141.600000   141.500000     10    627     32    0.07%       8      2
+   14088   141.600000   141.500000     10    616     29    0.07%       6      2
+   15094   141.600000   141.500000     10    617     25    0.07%       9      2
+   16098   141.600000   141.500000     10    606     24    0.07%      14      2
+   17129   141.600000   141.500000     10    608     24    0.07%       7      3
+   18131   141.600000   141.500000     10    640     31    0.07%      10      3
+   19154   141.600000   141.500000     10    695     26    0.07%      10      3
+   20154   141.600000   141.500000     10    747     24    0.07%       9      3
+   21165   141.600000   141.500000     10    767     28    0.07%       8      3
+   22171   141.600000   141.500000     10    786     34    0.07%      11      3
+   23181   141.600000   141.500000     10    793     28    0.07%      11      3
+   24181   141.600000   141.500000     10    793     11    0.07%       8      3
+   25181   141.600000   141.500000     10    788     14    0.07%      11      4
+B&B tree size: 3.0Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+   26189   141.600000   141.500000     10    784     32    0.07%       7      4
+   27191   141.600000   141.500000     10    805     27    0.07%      11      4
+   28197   141.600000   141.500000     10    822     30    0.07%      10      4
+   29214   141.600000   141.500000     10    835     30    0.07%       9      4
+   30227   141.600000   141.500000     10    872     18    0.07%      12      4
+   31237   141.600000   141.500000     10    884     23    0.07%      10      4
+   32254   141.600000   141.500000     10    929     24    0.07%       4      4
+   33259   141.600000   141.500000     10    919     30    0.07%       8      4
+   34262   141.600000   141.500000     10    892     27    0.07%       6      5
+   35274   141.600000   141.500000     10    889     29    0.07%       8      5
+   36290   141.600000   141.500000     10    880     27    0.07%       8      5
+   37291   141.600000   141.500000     10    863     26    0.07%       4      5
+   38294   141.600000   141.500000     10    856     26    0.07%       8      5
+   39309   141.600000   141.500000     10    868     25    0.07%       6      5
+   40329   141.600000   141.500000     10    858     28    0.07%       5      5
+   41340   141.600000   141.500000     10    854     25    0.07%       8      5
+   42343   141.600000   141.500000     10    885     31    0.07%       9      6
+   43360   141.600000   141.500000     10    887     32    0.07%       8      6
+   44376   141.600000   141.500000     10    893     26    0.07%      10      6
+   45385   141.600000   141.500000     10    910     31    0.07%       4      6
+B&B tree size: 3.8Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+   46400   141.600000   141.500000     10    888     22    0.07%       8      6
+   47418   141.600000   141.500000     10    945     25    0.07%       6      6
+   48421   141.600000   141.500000     10    948     26    0.07%       9      6
+   49428   141.600000   141.500000     10   1011     30    0.07%      11      6
+   50434   141.600000   141.500000     10   1039     29    0.07%       7      6
+   51450   141.600000   141.500000     10   1080     28    0.07%       9      7
+   52462   141.600000   141.500000     10   1077     26    0.07%      11      7
+   53470   141.600000   141.500000     10   1103     26    0.07%       8      7
+   54476   141.600000   141.500000     10   1093     24    0.07%      10      7
+   55485   141.600000   141.500000     10   1089     30    0.07%       8      7
+   56487   141.600000   141.500000     10   1082     28    0.07%       5      7
+   57503   141.600000   141.500000     10   1046     32    0.07%       7      7
+   58514   141.600000   141.500000     10   1024     25    0.07%       9      7
+   59519   141.600000   141.500000     10    988     22    0.07%       6      7
+   60541   141.600000   141.500000     10    966     30    0.07%      10      8
+   61543   141.600000   141.500000     10    976     26    0.07%       7      8
+   62548   141.600000   141.500000     10    985     30    0.07%       9      8
+   63549   141.600000   141.500000     10    956     27    0.07%       7      8
+   64557   141.600000   141.500000     10    920     21    0.07%      12      8
+   65562   141.600000   141.500000     10    902     30    0.07%       9      8
+B&B tree size: 4.4Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+   66566   141.600000   141.500000     10    921     27    0.07%       9      8
+   67569   141.600000   141.500000     10    930     27    0.07%       5      8
+   68573   141.600000   141.500000     10    904     32    0.07%      10      8
+   69592   141.600000   141.500000     10    871     32    0.07%       8      9
+   70593   141.600000   141.500000     10    873     24    0.07%      10      9
+   71598   141.600000   141.500000     10    808     25    0.07%       4      9
+   72639   141.600000   141.500000     10    790     28    0.07%      11      9
+   73658   141.600000   141.500000     10    805     27    0.07%       7      9
+   74659   141.600000   141.500000     10    796     36    0.07%      13      9
+   75661   141.600000   141.500000     10    769     25    0.07%       6      9
+   76663   141.600000   141.500000     10    776     27    0.07%       7      9
+   77689   141.600000   141.500000     10    755     26    0.07%       8     10
+   78713   141.600000   141.500000     10    732     30    0.07%       8     10
+   79723   141.600000   141.500000     10    726     27    0.07%       6     10
+   80731   141.600000   141.500000     10    734     23    0.07%      10     10
+   81732   141.600000   141.500000     10    751     31    0.07%       9     10
+   82748   141.600000   141.500000     10    751     30    0.07%       8     10
+   83750   141.600000   141.500000     10    779     29    0.07%       9     10
+   84752   141.600000   141.500000     10    771     28    0.07%      11     10
+   85755   141.600000   141.500000     10    797     24    0.07%       8     10
+B&B tree size: 4.4Mb total
+
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+   86789   141.600000   141.500000     10    803     28    0.07%       6     11
+   87794   141.600000   141.500000     10    843     21    0.07%       9     11
+   88798   141.600000   141.500000     10    832     24    0.07%       7     11
+   89803   141.600000   141.500000     10    824     32    0.07%      10     11
+   90808   141.600000   141.500000     10    861     26    0.07%       7     11
+   91822   141.600000   141.500000     10    833     29    0.07%      10     11
+   92843   141.600000   141.500000     10    815     30    0.07%       5     11
+   93845   141.600000   141.500000     10    792     31    0.07%       8     11
+   94856   141.600000   141.500000     10    743     27    0.07%       9     11
+   95873   141.600000   141.500000     10    737     28    0.07%      10     11
+   96894   141.600000   141.500000     10    697     28    0.07%       8     12
+   97918   141.600000   141.500000     10    702     29    0.07%       6     12
+   98927   141.600000   141.500000     10    684     26    0.07%      11     12
+   99940   141.600000   141.500000     10    682     27    0.07%       7     12
+  100951   141.600000   141.500000     10    657     32    0.07%       7     12
+  110963   141.600000   141.500000     10    516     24    0.07%       8     13
+  120971   141.600000   141.500000     10    255     32    0.07%       7     14
+  130986   141.600000   141.500000     10    162     29    0.07%       6     15
+ *** Search completed ***     Time:    16 Nodes:     135329
+Number of integer feasible solutions found is 10
+Best integer solution found is   141.600000
+Best bound is   141.600000
+Uncrunching matrix

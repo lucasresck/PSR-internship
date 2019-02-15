@@ -348,3 +348,153 @@ Number of integer feasible solutions found is 4
 Best integer solution found is      .848181
 Best bound is      .878420
 Uncrunching matrix
+Maximizing MILP 
+Original problem has:
+       200 rows          861 cols         9390 elements       840 globals
+Presolved problem has:
+       190 rows          850 cols         9360 elements       840 globals
+LP relaxation tightened
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:     -.999300      Time: 0 ***
+ *** Heuristic solution found:     -.955602      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P   .8784202   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 222 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   222           .878420      P      0     0        .000000     0
+Dual solved problem
+  222 simplex iterations in 0s
+
+Final objective                         : 8.784202021575853e-01
+  Max primal violation      (abs / rel) : 1.982e-16 / 1.982e-16
+  Max dual violation        (abs / rel) : 3.296e-17 / 3.296e-17
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a             .813155      .878420      3                  7.43%       0      0
+   1  K       .813155      .878420      3    135      0    7.43%      17      0
+   2  K       .813155      .878420      3    182    125    7.43%      35      0
+a             .848181      .878420      4                  3.44%       0      0
+STOPPING - MIPRELSTOP target reached.
+   3  K       .848181      .878420      4    204    188    3.44%      25      0
+
+Cuts in the matrix         : 208
+Cut elements in the matrix : 8392
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is      .848181
+Best bound is      .878420
+Uncrunching matrix
+Maximizing MILP 
+Original problem has:
+       200 rows          861 cols         9390 elements       840 globals
+Presolved problem has:
+       190 rows          850 cols         9360 elements       840 globals
+LP relaxation tightened
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 3.5Gb
+ *** Heuristic solution found:     -.999300      Time: 0 ***
+ *** Heuristic solution found:     -.955602      Time: 0 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P   .8784202   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 222 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   222           .878420      P      0     0        .000000     0
+Dual solved problem
+  222 simplex iterations in 0s
+
+Final objective                         : 8.784202021575853e-01
+  Max primal violation      (abs / rel) : 1.982e-16 / 1.982e-16
+  Max dual violation        (abs / rel) : 3.296e-17 / 3.296e-17
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a             .813155      .878420      3                  7.43%       0      0
+   1  K       .813155      .878420      3    135      0    7.43%      17      0
+   2  K       .813155      .878420      3    182    125    7.43%      35      0
+a             .848181      .878420      4                  3.44%       0      0
+STOPPING - MIPRELSTOP target reached.
+   3  K       .848181      .878420      4    204    188    3.44%      25      0
+
+Cuts in the matrix         : 208
+Cut elements in the matrix : 8392
+ *** Search completed ***     Time:     0 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is      .848181
+Best bound is      .878420
+Uncrunching matrix
+Maximizing MILP 
+Original problem has:
+       200 rows          861 cols         9390 elements       840 globals
+Presolved problem has:
+       190 rows          850 cols         9360 elements       840 globals
+LP relaxation tightened
+Symmetric problem: generators: 6, support set: 132
+ Number of orbits: 60, largest orbit: 3
+Will try to keep branch and bound tree memory usage below 5.5Gb
+ *** Heuristic solution found:     -.999300      Time: 1 ***
+ *** Heuristic solution found:     -.955602      Time: 1 ***
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   1s
+            Dual        
+    objective   sum inf 
+ P   .8784202   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 222 simplex iterations, 0.00s
+Optimal solution found
+
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   222           .878420      P      0     0        .000000     1
+Dual solved problem
+  222 simplex iterations in 1s
+
+Final objective                         : 8.784202021575853e-01
+  Max primal violation      (abs / rel) : 1.982e-16 / 1.982e-16
+  Max dual violation        (abs / rel) : 3.296e-17 / 3.296e-17
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+a             .813155      .878420      3                  7.43%       0      1
+   1  K       .813155      .878420      3    135      0    7.43%      17      1
+   2  K       .813155      .878420      3    182    125    7.43%      35      1
+a             .848181      .878420      4                  3.44%       0      1
+STOPPING - MIPRELSTOP target reached.
+   3  K       .848181      .878420      4    204    188    3.44%      25      1
+
+Cuts in the matrix         : 208
+Cut elements in the matrix : 8392
+ *** Search completed ***     Time:     1 Nodes:          0
+Number of integer feasible solutions found is 4
+Best integer solution found is      .848181
+Best bound is      .878420
+Uncrunching matrix
